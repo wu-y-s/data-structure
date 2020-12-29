@@ -40,8 +40,8 @@ public class Doublelinkedlist<E> {
         }
     }
 
-    //列出所有
-    public List<E> queryAll(){
+    //取出所有
+    public List<E> get(){
         List<E> list = new ArrayList<>();
         while (head != null){
             System.out.println(head.value);
@@ -50,6 +50,8 @@ public class Doublelinkedlist<E> {
         }
         return list;
     }
+
+    //取出
 
     //逆置
     public void reverse(){
@@ -81,7 +83,7 @@ public class Doublelinkedlist<E> {
         list.add(4);
         list.add(5);
         list.reverse();
-        list.queryAll();
+        list.get();
     }
 
 

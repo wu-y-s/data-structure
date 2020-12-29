@@ -188,7 +188,7 @@ public class Listnode {
     }
 
     //取出根据index
-    public Integer getByIndex(int index) {
+    public Integer get(int index) {
         Node n = head;
         Node m = new Node();
         if (index < 0) {
@@ -244,7 +244,7 @@ public class Listnode {
             System.out.println(listnode.query());
             System.out.println(listnode.query(1));
             System.out.println(listnode.query());
-            System.out.println(listnode.getByIndex(1));
+            System.out.println(listnode.get(1));
             System.out.println(listnode.query());
             System.out.println(listnode.count());
 
